@@ -1,0 +1,289 @@
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    background: #f8f9fa; 
+    border-radius: 8px; 
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+
+#home {
+    background: #e9ecef;
+}
+.resume{
+text-decoration: none;
+color: red;
+
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+section {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.is-hidden {
+    display: none; 
+}
+
+.circular-image {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px; 
+    object-fit: cover; 
+    opacity: 0; 
+    transform: scale(0.8);
+    animation: fadeIn 0.5s forwards; 
+    animation-delay: 0.5s; 
+    border: 5px solid transparent; 
+}
+.circular-image:hover{
+    transform: rotate3d(1, 1, 0, 30deg);
+}
+.hire:hover{
+    transform: rotate3d(1, 1, 0, 45deg);
+}
+.alink:hover{
+    transform: rotate3d(1, 1, 0, 45deg);
+}
+.resume:hover{
+    transform: rotate3d(1, 1, 0, 45deg);
+}
+.banner-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbrand:hover{
+    transform: translateY(-10px) rotate(10deg);
+}
+.navbrand {
+    transition: transform 0.3s ease;
+}
+
+.clip:hover{
+    transform: translateX(50px);
+}
+
+.navbar-nav {
+    margin-left: 850px;
+    align-items: center; 
+}
+
+.alink {
+    color: #a40000; 
+}
+h2{
+    text-align: center;
+}
+.clip2:hover{
+    transform: rotate3d(1, 0, 0, 45deg);
+}
+
+.alink:hover {
+    color: #007bff; 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        border-color: red;
+    }
+    50% {
+        opacity: 0.5; 
+        border-color: rgb(74, 74, 96);
+    }
+    100% {
+        opacity: 1; 
+        transform: scale(1); 
+        border-color:transparent;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    
+
+
+
+}
+
+.footcon{
+    animation: fadeInLeft 2s ease forwards;  
+}
+
+@keyframes fadeup {
+    0%
+    {
+        opacity:0;
+        transform: translateY(100px);
+    
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+.banner_content {
+    animation: fadeInLeft 2s ease forwards; 
+}
+
+.banner-images {
+    animation: fadeInRight 2s ease forwards;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.project-card {
+    background: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center;
+    transition: transform 0.3s; 
+    animation: fadeup 1s ease forwards;
+    animation: fadeInLeft 2s ease forwards;
+    
+}
+
+.project-card:hover{
+    transform: rotate(45deg);
+}
+
+
+.project-image {
+    width: 100%; 
+    border-radius: 8px; 
+    height: auto; 
+}
+.prgsbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+    animation: fadeInLeft 2s ease forwards;
+   
+
+   
+  }
+  .project-card:hover{
+    transform: rotate3d(1, 0, 0, 45deg);    
+  }
+  .project-image:hover{
+    transform: rotate(45deg);
+  }
+  .prg{
+    animation: route 2s ease forwards;
+    width: 75vw;
+  }
+  @keyframes route {
+    25%{
+        background-color: rgb(230, 6, 6);
+    }
+    50%{
+        background-color: rgb(90, 159, 202);
+       
+    }
+    75%{
+        background-color: rgb(177, 155, 77);
+       
+    }
+    100%{
+        background-color: rgb(255, 255, 255);
+    }
+    
+  }
+  
+  .skill {
+    width: 70%; 
+    margin-bottom: 25px; 
+  }
+
+
+  .alink1{
+    text-decoration: none;
+  }
+  .footer-right-contact {
+    margin: 25px 0;
+  }
+  .contactadd{
+    display: flex;
+    align-items: flex-end;
+
+  }
+  
+  .single-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .contact-icon svg {
+    width: 20px; 
+    height: 20px;
+  }
+  .alink2{
+    text-decoration: none;
+    color: rgb(42, 63, 57);
+  }
+  .headcontact{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  .navbrand{
+    margin-left: 30px;
+    
+}
+h2{
+    color: green;
+    animation: fadeInRight 2s ease forwards;   
+}
+.contactadd{
+    animation: fadeInRight 2s ease forwards;  
+    margin-left: 150px; 
+}
+.footcon{
+    color: green;
+}
+.contacthaed:hover{
+    transform: skewX(20deg);
+}
