@@ -44,10 +44,10 @@ const Texts = () => {
 
 // Project data
 const projects = [
-  { image: proimage, title: "QR Food Restaurant", description: "Description for project one." },
-  { image: proimage2, title: "Book Store", description: "Description for project two." },
-  { image: proimage3, title: "Student Management System", description: "Description for project three." },
-  { image: proimage4, title: "Online Products Sale", description: "Description for project four." },
+  { image: proimage, title: "QR Food Restaurant", description: "https://arun6396.github.io/qrfood-cart/" },
+  { image: proimage2, title: "Book Store", description: "https://arun6396.github.io/bookstore/" },
+  { image: proimage3, title: "Student Management System", description: "https://github.com/arun6396/studentinfo" },
+  { image: proimage4, title: "Online Products", description: "https://github.com/arun6396/productservice" },
 ];
 
 const skills = [
@@ -183,7 +183,9 @@ function Home() {
             >
               <img src={project.image} alt={project.title} className="project-image" />
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              
+              <p><a  className="btn btn-success" href={project.description}>GO TO</a></p>
+              
             </motion.div>
           ))}
         </div>
