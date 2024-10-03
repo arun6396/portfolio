@@ -229,7 +229,7 @@ function Home() {
                       </div>
                       <p>
                         <a className="alink2" href="https://github.com/arun6396" target="_blank" rel="noopener noreferrer">
-                          GitHub Profile
+                          GitHub
                         </a>
                       </p>
                     </div>
@@ -256,7 +256,7 @@ function Home() {
           <div className="row">
             <div className="col-lg-12">
               <div className="footer-text text-center wow " data-wow-delay="0.3s">
-                <p className="footcon"><span style={{ color: 'black' }}>Copyright © 2024</span> Java Fullstack</p>
+                <p className="footcon"><span style={{ color: 'black' }}>Designed with by</span> ARUNKUMAR V</p>
               </div>
             </div>
           </div>
